@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- app/code/community/Monashee/Towtruck/etc/config.xml
+/**
+ * Mozilla Labs Tow Truck module for Magento
+ *
+ * more info at http://towtruck.mozillalabs.com
+ *
+ * @category    Monashee
+ * @package     Monashee_Towtruck
+ * @author		Derek Marcinyshyn <derek@marcinyshyn.com>  
+ * @license     GPLv2
+ */
+-->
+<config>
+    <modules>
+        <Monashee_Towtruck>
+            <version>0.1</version>
+        </Monashee_Towtruck>
+    </modules>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <towtruck>
+                    <file>towtruck.xml</file>
+                </towtruck>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

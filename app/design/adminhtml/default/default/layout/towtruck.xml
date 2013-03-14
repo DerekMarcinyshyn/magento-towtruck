@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- app/design/adminhtml/default/default/layout/towtruck.xml
+/**
+ * Mozilla Labs Tow Truck module for Magento
+ *
+ * more info at http://towtruck.mozillalabs.com
+ *
+ * @category    Monashee
+ * @package     Monashee_Towtruck
+ * @author		Derek Marcinyshyn <derek@marcinyshyn.com> 
+ * @license     GPLv2
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <block type="core/text" name="mozilla.towtruck">
+                <action method="setText">
+                    <text><![CDATA[<script type="text/javascript" src="https://towtruck.mozillalabs.com/towtruck.js"></script>
+<script type="text/javascript">document.observe('dom:loaded', function(){$$('#nav')[0].innerHTML += '<li class="parent level0"><a href="#" onclick ="TowTruck();return false;" style="cursor: pointer;margin-top:14px;">Call TowTruck</a></li>';});</script>]]>
+                    </text>
+                </action>
+            </block>
+        </reference>
+    </default>
+</layout>
