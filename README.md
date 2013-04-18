@@ -6,13 +6,19 @@ A Magento module to call the [Mozilla Tow Truck](http://towtruck.mozillalabs.com
 
 ##Install
 
-Add the 3 files to your Magento website. Currently, there is one core file edit that involves copy and pasting this line of code at the bottom of ```/app/design/adminhtml/default/default/template/page/head.phtml```
+Add the 3 files to your Magento website. Currently, there is one core file edit that involves copy and pasting this line of code at the bottom of
 
-```<?php echo $this->getChildHtml('mozilla.towtruck'); ?>``` 
+```php
+/app/design/adminhtml/default/default/template/page/head.phtml
+```
+
+```php
+<?php echo $this->getChildHtml('mozilla.towtruck'); ?>
+``` 
 
 ##To do
 
-Add composer or modman installation methods or upload to Magento Connect.
+Add composer or modman installation methods or upload to Magento Connect. 
 
 ##Tested
 
